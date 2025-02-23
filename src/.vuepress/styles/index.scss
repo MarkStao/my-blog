@@ -7,3 +7,9 @@
 .vp-nav-item {
     margin: 0 1.25rem;
 }
+
+// 调整图像头像高度
+.vp-portfolio-avatar img {
+    max-height: 94vh;
+    height: 94vh;
+}

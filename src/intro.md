@@ -5,7 +5,7 @@ title: 档案主页
 icon: house
 welcome: 👋 你好，我是
 name: 宋涛
-avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
+avatar: /assets/images/my.png
 
 titles:
   - 好奇的码农
