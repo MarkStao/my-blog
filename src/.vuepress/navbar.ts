@@ -27,14 +27,14 @@ export default navbar([
     ],
   },
   {
-    text: "快速访问",
-    icon: "lightbulb",
+    text: "快速导航",
+    icon: "share",
     prefix: "bookmark/",
     link: "bookmark/"
   },
   {
     text: "个人介绍",
-    icon: "lightbulb",
+    icon: "user",
     prefix: "",
     link: "intro"
   }

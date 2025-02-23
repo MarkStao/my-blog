@@ -5,8 +5,9 @@ export default sidebar({
     "",
     {
       text: "知识文档",
-      icon: "laptop-code",
+      icon: "book",
       prefix: "article",
+      link:"article/",
       children: [
         {
             text: "Vue",
@@ -30,7 +31,7 @@ export default sidebar({
     },
     {
         text: "快速导航",
-        icon: "laptop-code",
+        icon: "share",
         prefix: "bookmark/",
         link: "bookmark/"
       }

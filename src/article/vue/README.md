@@ -1,9 +1,7 @@
 ---
 title: Vue知识文档
 index: false
-icon: laptop-code
-category:
-  - Guide
+icon: vue.svg
 ---
 
 记录Vue相关技术知识

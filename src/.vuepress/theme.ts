@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://java-st.blog.csdn.net",
 
   author: {
     name: "宋涛",
@@ -37,15 +37,15 @@ export default hopeTheme({
   // 博客相关
   blog: {
     description: "好奇的Java开发工程师",
-    intro: "/info/myinfo.html",
+    intro: "/intro",
     medias: {
-      Dingding: "https://example.com",
-      Email: "mailto:info@example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      QQ: "https://example.com",
-      Wechat: "https://example.com",
+    //   Dingding: "https://example.com",
+    //   Email: "mailto:info@example.com",
+      Gitee: "https://gitee.com/st-blog",
+      GitHub: "https://github.com/MarkStao",
+    //   Gmail: "mailto:info@example.com",
+    //   QQ: "https://example.com",
+    //   Wechat: "https://example.com",
     //   VuePressThemeHope: {
     //     icon: "https://theme-hope-assets.vuejs.press/logo.svg",
     //     link: "https://theme-hope.vuejs.press",
@@ -154,6 +154,12 @@ export default hopeTheme({
 
     icon: {
       prefix: "fa6-solid:",
+      assets: [
+        "/public/assets/icon",
+        "https://example/my/fonr-icon/resouce.css",
+        "fontawesome",
+      ],
     },
+
   },
 });

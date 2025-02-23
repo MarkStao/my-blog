@@ -13,3 +13,9 @@
     max-height: 94vh;
     height: 94vh;
 }
+
+// 修改首页图标大小
+#main-content > div.vp-project-panel > a.vp-project-card > .vp-project-icon {
+    height: 1.6em;
+}
+
