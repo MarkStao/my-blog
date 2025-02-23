@@ -35,7 +35,7 @@ jobs:
 
       # 运行构建脚本
       - name: 构建 VuePress 站点
-        run: pnpm docs:build
+        run: pnpm run docs:build
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
