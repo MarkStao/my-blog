@@ -47,15 +47,15 @@ jobs:
         with:
           path: .vitepress/dist # 指定上传的路径，当前是根目录，如果是docs需要加docs/的前缀
 
-  # 部署工作
-  # deploy:
-  #   environment:
-  #     name: my-blog
-  #     url: ${{ steps.deployment.outputs.page_url }} # 从后续的输出中获取部署后的页面URL
-  #   needs: build    # 在build后面完成
-  #   runs-on: ubuntu-latest  # 运行在最新版本的ubuntu系统上
-  #   name: Deploy
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment  # 指定id
-  #       uses: actions/deploy-pages@v4 # 将之前的构建产物部署到github pages中
+      # 查看 workflow 的文档来获取更多信息
+      # @see https://github.com/crazy-max/ghaction-github-pages
+      - name: 部署到 GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          # 部署到 gh-pages 分支
+          target_branch: main
+          # 部署目录为 VuePress 的默认输出目录
+          build_dir: docs/.vuepress/dist
+        env:
+          # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
