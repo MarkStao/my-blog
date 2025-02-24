@@ -2,7 +2,6 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
-    "",
     {
       text: "知识文档",
       icon: "book",
@@ -32,8 +31,8 @@ export default sidebar({
     {
         text: "快速导航",
         icon: "share",
-        prefix: "bookmark/",
-        link: "bookmark/"
+        prefix: "navigation/",
+        link: "navigation/"
       }
   ],
 });

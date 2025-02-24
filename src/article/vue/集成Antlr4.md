@@ -37,7 +37,7 @@ pnpm install --save-dev antlr4ng-cli
 
 其中，**-Dlanguage**为要生成的文件类型 ，**-o src/assets/antlr\/**为生成的目录，**src/assets/antlr/Java.g4**为.g4文件的地址。
 3）点击调试，选择antlr4ng运行。
-![在这里插入图片描](https://i-blog.csdnimg.cn/direct/47cb27a6631f498aad4974caedd63545.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/47cb27a6631f498aad4974caedd63545.png)
 
 运行结束，将在目录生成对应文件。
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/0fff408d1b51474a85c740725097a8c4.png)

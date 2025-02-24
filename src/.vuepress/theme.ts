@@ -154,11 +154,9 @@ export default hopeTheme({
 
     icon: {
       prefix: "fa6-solid:",
-      assets: [
-        "/public/assets/icon",
-        "https://example/my/fonr-icon/resouce.css",
-        "fontawesome",
-      ],
+    //   assets: [
+    //     "fontawesome",
+    //   ],
     },
 
   },
