@@ -1,21 +1,23 @@
 
-.vp-card-container .vp-card {
-    flex-basis: calc(33% - 3rem);
+@media (min-width: 959px){
+    .vp-card-container .vp-card {
+        flex-basis: calc(33% - 3rem);
+    }
+
+    // 调整顶部导航间距
+    .vp-nav-item {
+        margin: 0 1.25rem;
+    }
+
+    // 调整图像头像高度
+    .vp-portfolio-avatar img {
+        max-height: 94vh;
+        height: 94vh;
+    }
 }
 
-// 调整顶部导航间距
-.vp-nav-item {
-    margin: 0 1.25rem;
-}
-
-// 调整图像头像高度
-.vp-portfolio-avatar img {
-    max-height: 94vh;
-    height: 94vh;
-}
 
 // 修改首页图标大小
 #main-content > div.vp-project-panel > a.vp-project-card > .vp-project-icon {
     height: 1.6em;
 }
-
