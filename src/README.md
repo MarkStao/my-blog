@@ -4,7 +4,7 @@ layout: BlogHome
 icon: house
 title: 网站主页
 heroImage: /logo.svg
-bgImage: /assets/images/bg.png
+bgImage: https://47.97.250.111:18888/down/rBhLQSN3mzl5.png
 heroText: 宋涛的知识库
 heroFullScreen: true
 tagline: 加油！努力！
