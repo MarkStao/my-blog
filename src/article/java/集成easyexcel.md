@@ -8,10 +8,6 @@ date: 2024-03-01
 # 一个页面可以有多个分类
 category:
   - Java
-# 此页面会在文章列表置顶
-sticky: true
-# 此页面会出现在星标文章中
-star: true
 ---
 
 集成spring-data-jpa和easyexcel进行数据导入导出操作

@@ -6,6 +6,7 @@ icon: house
 welcome: 👋 你好，我是
 name: 宋涛
 avatar: /assets/images/my.svg
+avatarDark: /assets/images/my.png
 
 titles:
   - 好奇的码农

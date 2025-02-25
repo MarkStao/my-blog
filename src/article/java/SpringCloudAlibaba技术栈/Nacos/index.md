@@ -1,7 +1,9 @@
 ---
-title: Nacos偏
+title: Nacos
 category:
   - Java
+tag:
+  - SpringCloudAlibaba
 ---
 
 讲述Nacos从下载到使用的整个过程

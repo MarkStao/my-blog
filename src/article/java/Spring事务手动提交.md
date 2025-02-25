@@ -26,4 +26,3 @@ TransactionStatus transStatus = txTemplate.getTransactionManager().getTransactio
 txTemplate.getTransactionManager().commit(transStatus);
 ```
 **备注：以上所有类采用org.springframework.transaction的jar包，加上述代码不能加@Transactional注解，否则优先@Transactional注解的事务**
-**各位看官，走过路过，麻烦点个赞，谢谢了**

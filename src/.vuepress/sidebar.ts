@@ -59,7 +59,11 @@ export default sidebar({
                 icon: "",
                 link:"下载"
             },
-
+            {
+                text: "工具",
+                icon: "",
+                link:"工具"
+            },
         ]
       }
   ],
