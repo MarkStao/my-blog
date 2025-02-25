@@ -3,7 +3,7 @@
 title: VM虚拟机配置化固定IP
 date: 2024-12-10
 category:
-  - Vue
+  - Linux
 ---
 
 VM虚拟机配置化固定IP

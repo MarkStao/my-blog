@@ -27,7 +27,7 @@ export default navbar([
     ],
   },
   {
-    text: "快速导航",
+    text: "快捷导航",
     icon: "share",
     prefix: "navigation/",
     link: "navigation/"
