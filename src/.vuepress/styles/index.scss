@@ -1,7 +1,20 @@
 
 @media (min-width: 959px){
-    .vp-card-container .vp-card {
+    .vp-card-container > a.vp-card {
         flex-basis: calc(33% - 3rem);
+
+    }
+
+    .vp-card-container > a.vp-card > img.vp-card-logo{
+        border-radius: 0;
+    }
+
+    .vp-card-container > a.vp-card > div.vp-card-content > div.vp-card-desc{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     // 调整顶部导航间距

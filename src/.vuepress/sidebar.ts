@@ -32,7 +32,35 @@ export default sidebar({
         text: "快速导航",
         icon: "share",
         prefix: "navigation/",
-        link: "navigation/"
+        link: "navigation/",
+        children: [
+            {
+                text: "设计",
+                icon: "",
+                link:"设计"
+            },
+            {
+                text: "开发",
+                icon: "",
+                link:"开发"
+            },
+            {
+                text: "运维",
+                icon: "",
+                link:"运维"
+            },
+            {
+                text: "学习",
+                icon: "",
+                link:"学习"
+            },
+            {
+                text: "下载",
+                icon: "",
+                link:"下载"
+            },
+
+        ]
       }
   ],
 });
