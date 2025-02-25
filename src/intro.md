@@ -5,7 +5,7 @@ title: 档案主页
 icon: house
 welcome: 👋 你好，我是
 name: 宋涛
-avatar: /assets/images/my.png
+avatar: /assets/images/my.svg
 
 titles:
   - 好奇的码农

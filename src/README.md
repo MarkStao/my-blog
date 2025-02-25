@@ -1,10 +1,12 @@
 ---
+head:
+  - [link,{rel: Shortcut icon, href: "/assets/logo.svg"}]
 home: true
 layout: BlogHome
 icon: house
 title: 网站主页
 heroImage: /logo.svg
-bgImage: /assets/images/bg.png
+bgImage: /assets/images/bg-black.svg
 heroText: 宋涛的知识库
 heroFullScreen: true
 tagline: 加油！努力！
