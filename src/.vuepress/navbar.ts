@@ -9,10 +9,16 @@ export default navbar([
     link: "article/",
     children: [
       {
-        text: "Vue",
+        text: "理论",
         icon: "",
-        prefix: "vue/",
-        link: "vue/"
+        prefix: "理论/",
+        link: "理论/"
+      },
+      {
+        text: "Web",
+        icon: "",
+        prefix: "Web/",
+        link: "Web/"
       },{
         text: "Java",
         icon: "",

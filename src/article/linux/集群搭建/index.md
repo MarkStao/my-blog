@@ -1,9 +1,9 @@
 ---
-title: Linux知识文档
+title: 集群搭建
 index: false
 ---
 
-记录Linux相关技术知识
+记录Linux中集群搭建相关技术知识
 <!-- more -->
 
 - [Linux命令](Linux命令.md)

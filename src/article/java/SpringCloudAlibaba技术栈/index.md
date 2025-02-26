@@ -10,6 +10,7 @@ star: true
 <!-- more -->
 
 - [Nacos 服务治理](Nacos/)
+- [Dubbo 服务调用](Dubbo/)
 - [Sentinel 服务容错](Sentinel/)
 - [Gateway 服务网关](Gateway/)
 - [Sleuth 链路追踪](Sleuth/)

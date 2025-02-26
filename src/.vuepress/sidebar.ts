@@ -9,10 +9,16 @@ export default sidebar({
       link:"article/",
       children: [
         {
-            text: "Vue",
+          text: "理论",
+          icon: "",
+          prefix: "理论/",
+          link:"理论/"
+        },
+        {
+            text: "Web",
             icon: "",
-            prefix: "vue/",
-            link:"vue/"
+            prefix: "Web/",
+            link:"Web/"
           },
           {
             text: "Java",

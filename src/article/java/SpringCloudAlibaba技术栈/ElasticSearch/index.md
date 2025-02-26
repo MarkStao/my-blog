@@ -8,6 +8,7 @@ tag:
 
 Elasticsearch 是一个基于分布式 RESTful 搜索引擎的开源工具，具有强大的搜索、分析和全文检索功能。在微服务架构中，集成 Elasticsearch 能够在大规模数据下实现高效的索引和快速搜索。通过 Spring Cloud Alibaba 的集成，我们可以快速实现与 Elasticsearch 的交互，用于日志分析、商品检索、智能推荐等场景。
 
+<!-- more -->
 
 ## 目录
 
