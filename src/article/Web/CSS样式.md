@@ -1,7 +1,7 @@
 ---
 title: CSS样式
 category:
-  - 前端开发
+  - 前端
 tag:
   - CSS
 ---

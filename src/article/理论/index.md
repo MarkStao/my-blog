@@ -1,6 +1,8 @@
 ---
 title: 理论知识
-index: false
+index: true
+article: true
+star: true
 ---
 
 记录编程相关理论知识

@@ -1,7 +1,7 @@
 ---
 title: 快捷导航
-index: false
-icon: laptop-code
+index: true
+article: true
 star: true
 ---
 

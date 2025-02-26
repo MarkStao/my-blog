@@ -1,7 +1,7 @@
 ---
 title: Vue3知识点
 category:
-  - 前端开发
+  - 前端
 tag:
   - Vue3
 ---

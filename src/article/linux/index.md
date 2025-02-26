@@ -1,6 +1,8 @@
 ---
 title: Linux知识文档
-index: false
+index: true
+article: true
+star: true
 ---
 
 记录Linux相关技术知识

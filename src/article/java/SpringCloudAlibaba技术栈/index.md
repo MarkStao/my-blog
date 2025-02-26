@@ -2,6 +2,7 @@
 title: SpringCloudAlibaba技术栈
 category:
   - Java
+index: true
 article: true
 star: true
 ---
