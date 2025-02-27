@@ -197,3 +197,40 @@ Map：无序，键值对，键不可重复。
 1.保证不同线程对同一变量操作的可见性；\
 2.禁止指令重排序；\
 3.一般用于状态标记量和单例模式的双检锁。
+
+### 6.Thread类中的start()和run()的区别
+
+start()方法会创建一个新线程，并调用该线程的run()方法；\
+run()方法只是调用线程的run()方法，不会创建新线程。
+
+### 7.为什么wait和notify方法必须在同步代码块中执行
+
+1.只有在调用线程拥有某个对象的独占锁时，才能调用wait()和notify()方法；\
+2.如果不在同步代码块中执行，则调用wait()和notify()方法会抛出IllegalMonitorStateException异常; \
+3.避免wait和notify方法在多线程间发生竞争，导致死锁。
+
+### 8.Java中的synchronized和Reentrantlock的区别
+
+1.synchronized：是Java内置的关键字，属于关键字同步，属于JVM层，属于轻量级同步；\
+2.Reentrantlock：是java.util.concurrent包下的类，属于锁对象，属于用户层，属于重量级同步。
+
+### 9.SynchronizedMap和ConcurrentHashMap的区别
+
+1.SynchronizedMap：是java.util包下的类，是线程安全的Map，是同步的；\
+2.ConcurrentHashMap：是java.util.concurrent包下的类，是线程安全的Map，是并发的。
+
+### 10.Java线程池中submit()和execute()的区别
+
+1.submit()：返回Future对象，可以获取线程执行结果；\
+2.execute()：直接执行线程，不能获取线程执行结果。
+
+### 11.synchronized关键字的了解
+
+synchronized关键字是Java语言提供的一种同步机制，用于保证多个线程对共享资源的互斥访问。被synchronized修饰的方法、变量和代码块，同一时刻只能有一个线程执行。
+
+### 12.常用的线程池
+
+1.Executors.newCachedThreadPool()：创建一个可缓存线程池，如果线程池长度超过处理需要，可灵活回收空闲线程，若无可回收，则新建线程。\
+2.Executors.newFixedThreadPool()：创建一个定长线程池，可控制线程最大并发数，超出的线程会在队列中等待。\
+3.Executors.newScheduledThreadPool()：创建一个大小无限线程池，支持定时及周期性任务执行。\
+4.Executors.newSingleThreadExecutor()：创建一个单线程化的线程池，它只会用唯一的工作线程来执行任务，保证所有任务按照指定顺序(FIFO, LIFO, 优先级)执行。

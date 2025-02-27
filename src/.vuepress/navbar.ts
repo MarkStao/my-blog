@@ -25,10 +25,20 @@ export default navbar([
         prefix: "Java/",
         link: "Java/"
       },{
+        text: "Python",
+        icon: "",
+        prefix: "Python/",
+        link: "Python/"
+      },{
         text: "Linux",
         icon: "",
         prefix: "Linux/",
         link: "Linux/"
+      },{
+        text: "Windows",
+        icon: "",
+        prefix: "Windows/",
+        link: "Windows/"
       },
     ],
   },

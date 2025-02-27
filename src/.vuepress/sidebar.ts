@@ -13,25 +13,32 @@ export default sidebar({
           icon: "",
           prefix: "理论/",
           link:"理论/"
+        },{
+          text: "Web",
+          icon: "",
+          prefix: "Web/",
+          link:"Web/"
+        },{
+          text: "Java",
+          icon: "",
+          prefix: "Java/",
+          link:"Java/"
+        },{
+          text: "Python",
+          icon: "",
+          prefix: "Python/",
+          link: "Python/"
+        },{
+          text: "Linux",
+          icon: "",
+          prefix: "Linux/",
+          link: "Linux/"
+        },{
+          text: "Windows",
+          icon: "",
+          prefix: "Windows/",
+          link: "Windows/"
         },
-        {
-            text: "Web",
-            icon: "",
-            prefix: "Web/",
-            link:"Web/"
-          },
-          {
-            text: "Java",
-            icon: "",
-            prefix: "Java/",
-            link:"Java/"
-          },
-          {
-            text: "Linux",
-            icon: "",
-            prefix: "Linux/",
-            link:"Linux/"
-          }
       ],
     },
     {
