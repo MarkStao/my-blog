@@ -22,13 +22,13 @@ export default navbar([
       },{
         text: "Java",
         icon: "",
-        prefix: "java/",
-        link: "java/"
+        prefix: "Java/",
+        link: "Java/"
       },{
         text: "Linux",
         icon: "",
-        prefix: "linux/",
-        link: "linux/"
+        prefix: "Linux/",
+        link: "Linux/"
       },
     ],
   },

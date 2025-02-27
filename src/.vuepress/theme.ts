@@ -39,17 +39,12 @@ export default hopeTheme({
     description: "好奇的Java开发工程师",
     intro: "/intro",
     medias: {
-    //   Dingding: "https://example.com",
-    //   Email: "mailto:info@example.com",
       Gitee: "https://gitee.com/st-blog",
       GitHub: "https://github.com/MarkStao",
-    //   Gmail: "mailto:info@example.com",
-    //   QQ: "https://example.com",
-    //   Wechat: "https://example.com",
-    //   VuePressThemeHope: {
-    //     icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-    //     link: "https://theme-hope.vuejs.press",
-    //   },
+      VuePressThemeHope: {
+        icon: "assets/icos/csdn.svg",
+        link: "https://java-st.blog.csdn.net",
+      },
     },
   },
 
