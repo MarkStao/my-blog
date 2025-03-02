@@ -20,7 +20,7 @@ titles:
 ## 有啥特殊能力
 
 - 具备扎实的Java基础，掌握集合、I/O、异常、反射、多线程、数据结构、设计模式、分布式知识，了解JVM调优；
-- 熟练使用SpringMVC、Spring Boot、Spring Cloud Alibaba进行框架业务开发和微服务架构搭建；
+- 熟练使用SpringMVC、Spring Boot、Spring Cloud Alibaba框架进行业务开发和微服务架构搭建；
 - 熟练使用Maven、Mybatis、Redissson、xxl-job、Activiti、Apache poi等框架的集成与业务应用；
 - 熟悉Redis、ZooKeeper、Kafka、ElasticSearch等中间件的部署与集成；
 - 熟悉使用Tomcat、Nginx等Web服务器进行负载均衡和反向代理；
