@@ -39,6 +39,11 @@ export default navbar([
         icon: "",
         prefix: "Windows/",
         link: "Windows/"
+      },{
+        text: "其它",
+        icon: "",
+        prefix: "其它/",
+        link: "其它/"
       },
     ],
   },
