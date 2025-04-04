@@ -1,5 +1,5 @@
 ---
-title: Markdown数学语法完全指南
+title: Markdown数学符号
 category:
   - Markdown
   - 数学公式
