@@ -12,4 +12,5 @@ star: true
 - [SpringCloudAlibaba技术栈](SpringCloudAlibaba技术栈/)
 - [YAML配置](YAML配置/)
 - [数据库存储过程](数据库存储过程.md)
+- [Kafka集成](Kafka集成.md)
 - [面试题库](面试题库/)
