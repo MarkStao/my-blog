@@ -4,6 +4,9 @@ category:
   - Java
 ---
 
+Spring Boot 基于 Spring 开发，Spirng Boot 本身并不提供 Spring 框架的核⼼特性以及扩展功能，只是⽤于快速、敏捷地开发新⼀代基于 Spring 框架的应⽤程序。它并不是⽤来替代 Spring 的解决⽅案，⽽是和 Spring 框架紧密结合⽤于提升 Spring 开发者体验的⼯具。
+<!-- more -->
+
 ## Spring Boot
 Spring Boot 基于 Spring 开发，Spirng Boot 本身并不提供 Spring 框架的核⼼特性以及扩展功能，只是⽤于快速、敏捷地开发新⼀代基于 Spring 框架的应⽤程序。它并不是⽤来替代 Spring 的解决⽅案，⽽是和 Spring 框架紧密结合⽤于提升 Spring 开发者体验的⼯具。
 

@@ -4,6 +4,9 @@ category:
   - Java
 ---
 
+Spring是一个轻量级、非侵入式的控制反转（IoC）和面向切面（AOP）的框架。
+<!-- more -->
+
 ## Spring基础
 
 Spring是一个轻量级、非侵入式的控制反转（IoC）和面向切面（AOP）的框架。
