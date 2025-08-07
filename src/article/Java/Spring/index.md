@@ -139,6 +139,7 @@ Spring IoC容器知道所有Bean的配置信息，此外，通过Java反射机�
 ### 循环依赖解决
 
 Spring通过三级缓存机制解决单例Bean循环依赖问题
+
 1. 在Bean创建过程中，Spring会先实例化对象，然后将其放入三级缓存中，此时对象还未完成属性注入和初始化；
 2. 当发生循环依赖时，依赖方会从三级缓存中获取到目标Bean的ObjectFactory，通过getObject()方法获取到早期引用；
 3. 三级缓存的结构包括：singletonObjects（存放创建成功的Bean）、earlySingletonObjects（存放创建中的Bean）和singletonFactories（存放ObjectFactory，用于获取早期引用）
@@ -166,9 +167,9 @@ Spring通过三级缓存机制解决单例Bean循环依赖问题
 
 ### Spring优化启动时间
 
-- 使用@Lazy注解标记可延迟加载的Bean；
-- 合理设置Bean的作用域；
-- 使用Spring Boot的懒加载陪吹吹
+- 使用@Lazy注解标记可延迟加载的Bean
+- 合理设置Bean的作用域
+- 使用Spring Boot的懒加载配置
 - 大型应用可以采用模块化加载
 
 ---
@@ -181,6 +182,7 @@ Spring通过三级缓存机制解决单例Bean循环依赖问题
 
 AOP是面向切面编程，核心思想是将横切关注点（日志、事务、安全等）从业务逻辑分离出来。通过代理模式实现，在运行时动态地将代码切入到类的指定方法或位置。
 核心概念包括：
+
 - 切面（Aspect）：封装横切关注点的模块
 - 连接点（JoinPoint）：程序执行过程中的特定点
 - 切点（Pointcut）：匹配连接点的表达式

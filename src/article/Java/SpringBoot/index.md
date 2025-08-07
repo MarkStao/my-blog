@@ -8,6 +8,7 @@ Spring Boot 基于 Spring 开发，Spirng Boot 本身并不提供 Spring 框架�
 <!-- more -->
 
 ## Spring Boot
+
 Spring Boot 基于 Spring 开发，Spirng Boot 本身并不提供 Spring 框架的核⼼特性以及扩展功能，只是⽤于快速、敏捷地开发新⼀代基于 Spring 框架的应⽤程序。它并不是⽤来替代 Spring 的解决⽅案，⽽是和 Spring 框架紧密结合⽤于提升 Spring 开发者体验的⼯具。
 
 ### 核心功能
@@ -45,6 +46,7 @@ Spring Boot 基于 Spring 开发，Spirng Boot 本身并不提供 Spring 框架�
 ### Spring Boot的启动依赖
 
 起步依赖是Spring Boot提供的一种特殊依赖描述符，它通过聚合相关技术的依赖来简化配置。主要体现在：
+
 - 依赖管理简化：自动解决版本兼容问题；
 - 开箱即用：提供合理的默认配置，开发者只需关注业务逻辑；
 - 模块化设计：按功能划分的依赖包使项目结构更清晰；
