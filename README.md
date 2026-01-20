@@ -2,6 +2,7 @@
 
 网页地址：https://markstao.github.io/my-blog/ \
 基于VuePress搭建，使用theme-hope主题。
+> 启动命令 pnpm run docs:dev
 
 ## 目录说明
 
